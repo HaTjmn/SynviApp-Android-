@@ -53,7 +53,7 @@
     content: '';
     position: absolute; inset: -10px;
     border-radius: 50%; border: 1px solid #1a9db830;
-  }
+  }`
   .btn-start::after {
     content: '';
     position: absolute; inset: -20px;
@@ -330,7 +330,7 @@ function startScan() {
   var pct = 0;
   var stepIdx = 0;
   drawSpinner(0);
-  var DURATION_MS = 120000;
+  var DURATION_MS = 40000;
   var intervalMs = DURATION_MS / 100;
   var iv = setInterval(function() {
     pct++;
